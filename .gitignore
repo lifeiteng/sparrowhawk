@@ -49,4 +49,15 @@ missing
 third_party/
 libtool
 test-driver
-    
+
+
+src/include/sparrowhawk/items.pb.h
+src/include/sparrowhawk/links.pb.h
+src/include/sparrowhawk/rule_order.pb.h
+src/include/sparrowhawk/semiotic_classes.pb.h
+src/include/sparrowhawk/sparrowhawk_configuration.pb.h
+src/lib/items.pb.cc
+src/lib/links.pb.cc
+src/lib/rule_order.pb.cc
+src/lib/semiotic_classes.pb.cc
+src/lib/sparrowhawk_configuration.pb.cc

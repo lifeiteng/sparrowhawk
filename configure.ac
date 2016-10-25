@@ -16,6 +16,8 @@ AC_CONFIG_FILES([
   src/include/Makefile
   src/lib/Makefile
   src/proto/Makefile
+  test/Makefile
+  test/unit/Makefile
 ])
 
 AC_CONFIG_MACRO_DIR([m4])

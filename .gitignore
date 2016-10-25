@@ -24,6 +24,10 @@ m4/*.m4
 *.dylib
 *.lai
 *Makefile*
+!Makefile.am
+*.log
+*.in
+
 config.*
 configure
 *.deps*
@@ -32,7 +36,12 @@ src/include/sparrowhawk/*.pb.h
 src/lib/*.pb.cc
 src/proto/*
 
-Makefile.in
+*.libs/
+test/unit/test
+*.trs
+
+
+*Makefile.in
 aclocal.m4
 ar-lib
 compile

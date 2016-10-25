@@ -15,6 +15,8 @@
 
 #include <errno.h>
 #include <string>
+#include <stdlib.h>  /* strtof */
+
 using std::string;
 
 namespace speech {
